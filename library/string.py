@@ -7,5 +7,3 @@ def zero_padding(x, digit):
     else:
         raise Exception('Unexpected data type: {}'.format(x))
     return x.zfill(digit)
-
-print(zero_padding(4, 4))

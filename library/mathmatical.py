@@ -9,7 +9,7 @@ def lcm(a,b):
     x = math.gcd(a,b)
     return a*b//x
 
-""" 約数の列挙 """
+""" 約数列挙 """
 def divisor(x):
     ret = []
     for i in range(1, int(x**0.5)+1):
