@@ -35,3 +35,16 @@ def prime_decomposition(x):
     
     # ret.sort()
     return ret
+
+""" Decimal による除算 """
+""" Decimal は PyPy は遅いので注意 """
+def decimal_divide(a:str, b:str):
+    from decimal import Decimal, getcontext
+    getcontext().prec = 100
+
+    assert type(a)==str, "type error"
+    assert type(b)==str, "type error"
+
+    a = Decimal(a)
+    b = Decimal(b)
+    return a/b
