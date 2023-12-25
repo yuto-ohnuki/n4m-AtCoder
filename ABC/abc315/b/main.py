@@ -11,6 +11,5 @@ def main():
             ans[1] += lst[i]
     print(*ans)
 
-
 if __name__ == '__main__':
     main()
