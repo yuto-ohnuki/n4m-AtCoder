@@ -19,6 +19,5 @@ def main():
         ans = max(ans, tmp)
     print(ans)
 
-
 if __name__ == '__main__':
     main()
