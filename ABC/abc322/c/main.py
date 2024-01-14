@@ -5,7 +5,7 @@ def main():
     s = set(a)
     ans = []
     for i in range(1, n+1):
-        if i in a:
+        if i in s:
             ans.append(0)
         else:
             nx = bisect_left(a, i)
