@@ -10,6 +10,5 @@ def main():
             ans = min(ans, nx)
     print(ans if ans!=float('inf') else -1)
 
-
 if __name__ == '__main__':
     main()
