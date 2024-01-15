@@ -9,7 +9,6 @@ def main():
         ret[i] = c
         cnt[c].append(i+1)
     ret = sorted(ret.items(), key=lambda x:x[1], reverse=True)
-
     used = set([])
     ans = []
     for i,c in ret:
